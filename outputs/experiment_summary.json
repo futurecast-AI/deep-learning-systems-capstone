@@ -1,0 +1,62 @@
+{
+  "task": "supervised image classification; PyTorch CNN",
+  "seed": 20261119,
+  "parameter_count": 52138,
+  "changed_keys": [
+    "learning_rate"
+  ],
+  "data_audit": {
+    "training_images": 50000,
+    "validation_images": 10000,
+    "test_images": 10000,
+    "missing_pixels": 0,
+    "official_training_repeated_pixel_rows": 0,
+    "official_test_repeated_pixel_rows": 0,
+    "validation_images_matching_training_pixels": 0,
+    "test_images_matching_training_pixels": 0,
+    "test_images_matching_validation_pixels": 0,
+    "test_images_matching_official_training_pixels": 0,
+    "train_indices_sha256": "3f52f09672d4a23ea11f5b38fb6ce3b74f033c5faf3f7ab988bf0c0b7030c951",
+    "validation_indices_sha256": "554355b2b21614f4090dbc7c37e04f84f7a8aac377c7ca169a2bf73573299fd6"
+  },
+  "models": {
+    "baseline": {
+      "learning_rate": 0.001,
+      "validation_accuracy": 0.8813,
+      "validation_loss": 0.33047322583198546,
+      "test_accuracy": 0.8729,
+      "test_macro_f1": 0.8704709682916919,
+      "test_loss": 0.3565942507266998,
+      "test_correct": 8729,
+      "test_errors": 1271
+    },
+    "experimental": {
+      "learning_rate": 0.0003,
+      "validation_accuracy": 0.8522,
+      "validation_loss": 0.4113964496135712,
+      "test_accuracy": 0.8463,
+      "test_macro_f1": 0.8429502277852341,
+      "test_loss": 0.4340810377597809,
+      "test_correct": 8463,
+      "test_errors": 1537
+    }
+  },
+  "first_error": {
+    "test_index": 12,
+    "true_label": "Sneaker",
+    "baseline_label": "Bag",
+    "experimental_label": "Bag"
+  },
+  "shown_error_indices": [
+    12,
+    23,
+    25,
+    29,
+    40,
+    42,
+    48,
+    49
+  ],
+  "validation_accuracy_gap_baseline_minus_experimental": 0.029100000000000015,
+  "test_accuracy_gap_baseline_minus_experimental": 0.026599999999999957
+}
