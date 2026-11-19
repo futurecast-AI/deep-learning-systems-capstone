@@ -1,0 +1,9 @@
+test_index,true_label,baseline_label,experimental_label
+12,Sneaker,Bag,Bag
+23,Ankle boot,Sandal,Sandal
+25,Coat,Pullover,Pullover
+29,Dress,Coat,Coat
+40,Shirt,T-shirt/top,T-shirt/top
+42,Dress,T-shirt/top,T-shirt/top
+48,Pullover,Coat,Coat
+49,Pullover,Shirt,Shirt

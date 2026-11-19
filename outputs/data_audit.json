@@ -1,0 +1,14 @@
+{
+  "training_images": 50000,
+  "validation_images": 10000,
+  "test_images": 10000,
+  "missing_pixels": 0,
+  "official_training_repeated_pixel_rows": 0,
+  "official_test_repeated_pixel_rows": 0,
+  "validation_images_matching_training_pixels": 0,
+  "test_images_matching_training_pixels": 0,
+  "test_images_matching_validation_pixels": 0,
+  "test_images_matching_official_training_pixels": 0,
+  "train_indices_sha256": "3f52f09672d4a23ea11f5b38fb6ce3b74f033c5faf3f7ab988bf0c0b7030c951",
+  "validation_indices_sha256": "554355b2b21614f4090dbc7c37e04f84f7a8aac377c7ca169a2bf73573299fd6"
+}
