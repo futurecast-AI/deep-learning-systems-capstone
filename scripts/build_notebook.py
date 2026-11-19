@@ -433,7 +433,7 @@ Accuracy is the share of correct top-one labels and is meaningful for this
 balanced ten-class benchmark. A confusion matrix and per-class recall expose
 mistakes hidden by that overall average. Macro-F1 averages each class's
 precision/recall balance with equal class weight; zero denominators receive
-zero. Cross-entropy also considers the scores assigned to the true labels
+zero (scikit-learn developers, n.d.). Cross-entropy also considers the scores assigned to the true labels
 (PyTorch contributors, n.d.-b). Definitions are implemented explicitly below.
 Softmax scores sum to one but are not certified confidence or calibrated
 probabilities.
@@ -594,6 +594,8 @@ and attribute all gains to one. Keep any new test set separate from tuning.
   https://docs.pytorch.org/docs/2.15/generated/torch.nn.CrossEntropyLoss.html
 - PyTorch contributors. (n.d.-c). *Reproducibility*.
   https://docs.pytorch.org/docs/2.15/notes/randomness.html
+- scikit-learn developers. (n.d.). *f1_score*.
+  https://scikit-learn.org/stable/modules/generated/sklearn.metrics.f1_score.html
 - Xiao, H., Rasul, K., & Vollgraf, R. (2017). *Fashion-MNIST: A novel image
   dataset for benchmarking machine learning algorithms* [Preprint]. arXiv.
   https://doi.org/10.48550/arXiv.1708.07747
